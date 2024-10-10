@@ -672,7 +672,7 @@
 
 
 <h1 id="application-de-traitement-dimages-polluees-par-pollution-lumineuse">Application de traitement d'images polluées par pollution lumineuse</h1>
-<p>La pollution lumineuse est un signal supplémentaire dans l’image. La forme de ce signal est celui d’un <a href="../definitions/#gradient">gradient</a> ajouté.</p>
+<p>La pollution lumineuse est un signal supplémentaire dans l’image. La forme de ce signal est celui d’un <a href="../definitions/">gradient</a> ajouté.</p>
 <p>Pour retirer le gradient il faut d’abord l’<em>estimer</em>. Pour calculer le gradient on peut le considérer comme linéaire (c’est une bonne approximation). Si on souhaite un résultat plus précis on peut utiliser d’autres méthodes comme utiliser des polynômes d’ordre supérieur.</p>
 <p>Ensuite on peut <em>retirer</em> le gradient. On soustraire le gradient estimé précédemment à l’image de départ.</p>
 <h2 id="basique">Basique</h2>
@@ -686,7 +686,7 @@ Le bouton en dessous permet d'importer l'image polluée.
 Le bouton <em><strong>Exporter</strong></em> permet de sauvegarder l'image traitée.</p>
 <p><img alt="Interface basique de l'application" src="../images/img_1.png" title="Interface basique" /></p>
 <h2 id="intermediaire">Intermédiaire</h2>
-<p>L'onglet intermédiaire permet d'appliquer le filtre de <a href="../definitions/#sobel">Sobel</a> par X ou par Y à l'image.</p>
+<p>L'onglet intermédiaire permet d'appliquer le filtre de <a href="../definitions/">Sobel</a> par X ou par Y à l'image.</p>
 <h3 id="fonctionnement-du-traitement_1">Fonctionnement du traitement</h3>
 <p>Le filtre de Sobel utilise des matrices de convolution. On peut effectuer les traitements horizontalement ou verticalement.
 Soit <script type="math/tex">A</script> la matrice qui représente l'image source et <script type="math/tex">G_x</script> et <script type="math/tex">G_y</script> les deux images qui contienent les approximations de la dérivée horizontale et verticale de chaque point :</p>
@@ -722,13 +722,13 @@ Le bouton <em><strong>Exporter</strong></em> permet de sauvegarder l'image trait
 <p><img alt="Interface intermédiaire de l'application" src="../images/img_2.png" title="Interface intermédiaire" /></p>
 <h2 id="avance">Avancé</h2>
 <h3 id="normal">Normal</h3>
-<p>La méthode de traitement utilise la <a href="../definitions/#fréquence">fréquence</a> pour supprimer la pollution lumineuse.
+<p>La méthode de traitement utilise la <a href="../definitions/">fréquence</a> pour supprimer la pollution lumineuse.
 On peut sélectionner la fréquence entre 500 et 1500.
 On supprimer la fréquence 1 seule fois.</p>
 <div class="admonition tip">
 <p class="admonition-title">Bon à savoir !</p>
-<p>Le traitement n'est effectué qu'une seule fois <img alt="😕" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f615.svg" title=":confused:" />. Vous pouvez directement vous rendre dans l'onglet plusieurs fois et ne faire le traitement qu'une seule fois <img alt="😉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f609.svg" title=":wink:" />.</p>
 </div>
+<p>Le traitement n'est effectué qu'une seule fois <img alt="😕" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f615.svg" title=":confused:" />. Vous pouvez directement vous rendre dans l'onglet plusieurs fois et ne faire le traitement qu'une seule fois <img alt="😉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f609.svg" title=":wink:" />.</p>
 <h4 id="interface_2">Interface</h4>
 <p>La partie de gauche affiche l'image originale non traitée. La partie de droite affiche l'image après traitement.</p>
 <p>À droite, un curseur permet de choisir la fréquence à appliquer. Le bouton <strong>Fréquences</strong> permet d'appliquer la fréquence à l'image originale.
