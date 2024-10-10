@@ -1,0 +1,21 @@
+body {
+    background-color: #ffffff; /* Couleur de fond pour le mode clair */
+    color: #000000; /* Couleur du texte pour le mode clair */
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212; /* Couleur de fond pour le mode sombre */
+        color: #ffffff; /* Couleur du texte pour le mode sombre */
+    }
+
+    .markdown-body {
+        background-color: #1e1e1e; /* Couleur de fond pour le contenu en mode sombre */
+    }
+}
+
+.markdown-body {
+    background-color: #ffffff; /* Couleur de fond pour le contenu en mode clair */
+    border-radius: 8px; /* Arrondir les coins du contenu */
+    padding: 20px; /* Espacement autour du contenu */
+}

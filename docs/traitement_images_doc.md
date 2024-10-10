@@ -4,7 +4,7 @@ title: Documentation application traitement d'images
 
 # Application de traitement d'images polluées par pollution lumineuse
 
-La pollution lumineuse est un signal supplémentaire dans l’image. La forme de ce signal est celui d’un [gradient](./definitions.md#gradient) ajouté.
+La pollution lumineuse est un signal supplémentaire dans l’image. La forme de ce signal est celui d’un [gradient](./definitions.md) ajouté.
 
 Pour retirer le gradient il faut d’abord l’_estimer_. Pour calculer le gradient on peut le considérer comme linéaire (c’est une bonne approximation). Si on souhaite un résultat plus précis on peut utiliser d’autres méthodes comme utiliser des polynômes d’ordre supérieur.
 
@@ -29,7 +29,7 @@ Le bouton _**Exporter**_ permet de sauvegarder l'image traitée.
 
 ## Intermédiaire
 
-L'onglet intermédiaire permet d'appliquer le filtre de [Sobel](./definitions.md#sobel) par X ou par Y à l'image.
+L'onglet intermédiaire permet d'appliquer le filtre de [Sobel](./definitions.md) par X ou par Y à l'image.
 
 ### Fonctionnement du traitement
 
@@ -74,12 +74,12 @@ Le bouton _**Exporter**_ permet de sauvegarder l'image traitée.
 
 ### Normal
 
-La méthode de traitement utilise la [fréquence](./definitions.md#fréquence) pour supprimer la pollution lumineuse.
+La méthode de traitement utilise la [fréquence](./definitions.md) pour supprimer la pollution lumineuse.
 On peut sélectionner la fréquence entre 500 et 1500.
 On supprimer la fréquence 1 seule fois.
 
 !!! tip "Bon à savoir !"
-    Le traitement n'est effectué qu'une seule fois :confused:. Vous pouvez directement vous rendre dans l'onglet plusieurs fois et ne faire le traitement qu'une seule fois :wink:.
+Le traitement n'est effectué qu'une seule fois :confused:. Vous pouvez directement vous rendre dans l'onglet plusieurs fois et ne faire le traitement qu'une seule fois :wink:.
 
 #### Interface
 
