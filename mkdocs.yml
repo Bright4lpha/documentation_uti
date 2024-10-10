@@ -1,0 +1,5 @@
+site_name: "Nom de votre documentation"
+theme:
+    name: "material"
+nav:
+    - Home: index.md
