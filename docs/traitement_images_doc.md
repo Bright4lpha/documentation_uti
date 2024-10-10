@@ -79,7 +79,7 @@ On peut sélectionner la fréquence entre 500 et 1500.
 On supprimer la fréquence 1 seule fois.
 
 !!! tip "Bon à savoir !"
-Le traitement n'est effectué qu'une seule fois :confused:. Vous pouvez directement vous rendre dans l'onglet plusieurs fois et ne faire le traitement qu'une seule fois :wink:.
+    Le traitement n'est effectué qu'une seule fois :confused:. Vous pouvez directement vous rendre dans l'onglet plusieurs fois et ne faire le traitement qu'une seule fois :wink:.
 
 #### Interface
 
