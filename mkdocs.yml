@@ -3,3 +3,4 @@ theme:
     name: "material"
 nav:
     - Home: index.md
+    - Images: traitement_images_doc.md
