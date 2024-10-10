@@ -1,5 +1,5 @@
 # Application de traitement d'images
 
-## [Voir la documentation](traitement_images_doc.md)
+## [Voir la documentation](/documentation_uti/traitement_images_doc.md)
 
-## [Voir les définitions](definitions.md)
+## [Voir les définitions](/documentation_uti/definitions.md)
